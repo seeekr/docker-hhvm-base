@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+MAINTAINER Denis Andrejew <da.colonel@gmail.com>
+
 # curl, wget etc
 RUN apt-get update -qq && apt-get install -y -qq git curl wget
 
